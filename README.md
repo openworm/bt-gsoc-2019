@@ -10,6 +10,7 @@ This repository is split into 2 parts - Uploading( involves creating .torrents f
 
 #### For Uploading:
 P.S- No need to set up a Python virtual environment for "Uploading"
+
 -Python Libtorrent used here!
 ```
 sudo apt install python-libtorrent
