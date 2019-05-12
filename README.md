@@ -4,16 +4,23 @@ Bit Torrent Client to create, seed and download from .torrent files!
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
-The 
+This repository is split into 2 parts - Uploading( involves creating .torrents from files/folders and seeding them) && Downloading( involves dragging n dropping .torrent files into a BitTorrent Client GUI!).
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
+#### For Uploading:
+P.S- No need to set up a Python virtual environment for "Uploading"
+-Python Libtorrent used here!
 ```
-Give examples
+sudo apt install python-libtorrent
 ```
+-To start the seeding of a file( In this case the file is test.txt )
+```
+python Uploading/seed.py
+```
+Let the seeding process run indefinitely( Will specify duration on further testing!)
 
+#### For Downloading:
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
