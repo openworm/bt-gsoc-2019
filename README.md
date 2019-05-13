@@ -28,7 +28,9 @@ python Uploading/seed.py
 
 ![](images/seeding.png)
 
-#### For Downloading:
+
+
+### For Downloading:
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
