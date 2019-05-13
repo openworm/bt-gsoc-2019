@@ -14,7 +14,6 @@ This involves adding .torrent files into a BitTorrent Client GUI!
 ## Set it up!
 
 ### For Uploading:
-P.S- No need to set up a Python virtual environment for "Uploading".
 
 -Python Libtorrent used here!
 ```
@@ -22,7 +21,7 @@ sudo apt install python-libtorrent
 ```
 -To create a .torrent file and start seeding of desired contents( specify file of choice, in this case the file is "./test.txt" as shown in image below).
 ```
-python Uploading/seed.py
+python3 Uploading/seed.py
 ```
 -Upon starting the seeding process a .torrent( mytorrent.torrent ) is created. Let the seeding process run indefinitely( Will specify duration on further testing!)
 
@@ -31,8 +30,12 @@ python Uploading/seed.py
 
 
 ### For Downloading:
-### Installing
 
+-Install modules within requirements.txt
+```
+pip3 install -r Downloading/bit-torrent/requirements.txt 
+
+```
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
