@@ -21,7 +21,7 @@ python Uploading/seed.py
 ```
 Let the seeding process run indefinitely( Will specify duration on further testing!)
 
-![](/images/seeding.png)
+![](images/seeding.png)
 
 #### For Downloading:
 ### Installing
