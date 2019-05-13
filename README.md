@@ -48,6 +48,9 @@ Then run the BitTorrent Client GUI! (shown in image below).
 python3 torrent_gui.py 
 ```
 
+### Finally good to go!
+Shown below is an image of the process of seeding contents, creating their .torrent file and adding this .torrent file into the BitTorrent GUI based client.
+![](images/download.png)
 
 
 ## Running the tests
