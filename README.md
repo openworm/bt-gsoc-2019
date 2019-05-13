@@ -62,5 +62,8 @@ Shown below is an image of the process of seeding contents, creating their .torr
 
 * [Borzunov](https://github.com/borzunov/bit-torrent) - The Downloading portion of client! 
 
+## Other
 
+
+* [Torrents](https://eztv.io/) - Webpage to access larger, better seeded content.
 
