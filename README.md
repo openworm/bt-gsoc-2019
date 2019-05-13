@@ -3,8 +3,10 @@ Bit Torrent Client to create, seed and download from .torrent files!
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
-This repository is split into 2 parts - Uploading( involves creating .torrents from files/folders and seeding them) && Downloading( involves dragging n dropping .torrent files into a BitTorrent Client GUI!).
+This repository is split into 2 parts:
+###Uploading: This involves creating .torrents from files/folders and seeding them to peers
+
+###Downloading: This involves adding .torrent files into a BitTorrent Client GUI!
 
 ### Prerequisites
 
