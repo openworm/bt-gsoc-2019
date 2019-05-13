@@ -58,14 +58,9 @@ Shown below is an image of the process of seeding contents, creating their .torr
 
 
 
-## Built With
+## Acknowledgments
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Borzunov](https://github.com/borzunov/bit-torrent) - The Downloading portion of client! 
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
