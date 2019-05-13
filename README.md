@@ -1,9 +1,9 @@
 # GSoC 19 POW BitTorrent Client (1):
-Bit Torrent Client to create, seed and download from .torrent files!
+A Bit Torrent Client to create, seed and download from .torrent files!
 
 ## Getting Started
 
-This repository is split into 2 parts:
+This will guide you through setting up this BT client, this repository is split into 2 parts:
 
 #### Uploading:
 This involves creating .torrents from files/folders and seeding them to peers
@@ -20,11 +20,11 @@ P.S- No need to set up a Python virtual environment for "Uploading"
 ```
 sudo apt install python-libtorrent
 ```
--To start the seeding of a file(specify file of choice, in this case the file is test.txt )
+-To create a .torrent file and start seeding of desired contents( specify file of choice, in this case the file is "./test.txt" as shown in image below).
 ```
 python Uploading/seed.py
 ```
-Let the seeding process run indefinitely( Will specify duration on further testing!)
+-Upon starting the seeding process a .torrent( mytorrent.torrent ) is created. Let the seeding process run indefinitely( Will specify duration on further testing!)
 
 ![](images/seeding.png)
 
