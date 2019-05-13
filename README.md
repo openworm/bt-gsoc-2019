@@ -1,4 +1,4 @@
-# GSoC 19 PyOpenWorm BitTorrent Client (1):
+# GSoC 19 POW BitTorrent Client (1):
 Bit Torrent Client to create, seed and download from .torrent files!
 
 ## Getting Started
