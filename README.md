@@ -49,7 +49,7 @@ python3 torrent_gui.py
 ```
 
 ### Finally good to go!
-Shown below is an image of the process of seeding contents, creating their .torrent file and adding this .torrent file into the BitTorrent GUI based client.
+Shown below is an image of the process of seeding contents, creating their .torrent file and adding this .torrent file into the BitTorrent GUI based client for downloading from peers.
 ![](images/download.png)
 
 
