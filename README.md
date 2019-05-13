@@ -33,7 +33,7 @@ python3 Uploading/seed.py
 
 -Install modules within requirements.txt
 ```
-pip3 install -r Downloading/bit-torrent/requirements.txt 
+pip3 install -r requirements.txt 
 
 ```
 A step by step series of examples that tell you how to get a development env running
