@@ -30,27 +30,25 @@ python3 Uploading/seed.py
 
 
 ### For Downloading:
-
+P.S- Install into Python Virtual Evironment.
 -Install modules within requirements.txt
 ```
 pip3 install -r requirements.txt 
 
 ```
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Also PyQt,
 
 ```
-Give the example
-```
-
-And repeat
+pip3 install pyqt5
 
 ```
-until finished
+Then run the BitTorrent Client GUI! (shown in image below).
+
+```
+python3 torrent_gui.py 
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+
 
 ## Running the tests
 
