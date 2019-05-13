@@ -15,7 +15,7 @@ This involves adding .torrent files into a BitTorrent Client GUI!
 
 ### For Uploading:
 
--Python Libtorrent used here!
+-python libtorrent used here
 ```
 sudo apt install python-libtorrent
 ```
@@ -31,6 +31,8 @@ python3 Uploading/seed.py
 
 ### For Downloading:
 P.S- Install into Python Virtual Evironment.
+
+
 -Install modules within requirements.txt
 ```
 pip3 install -r requirements.txt 
