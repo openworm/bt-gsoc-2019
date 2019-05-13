@@ -47,7 +47,7 @@ pip3 install pyqt5
 Then run the BitTorrent Client GUI! (shown in image below).
 
 ```
-python3 torrent_gui.py 
+python3 Downloading/bit-torrent/torrent_gui.py 
 ```
 The process of running the GUI is shown here.
 ![](images/gui.png)
