@@ -15,7 +15,7 @@ P.S- No need to set up a Python virtual environment for "Uploading"
 ```
 sudo apt install python-libtorrent
 ```
--To start the seeding of a file( In this case the file is test.txt )
+-To start the seeding of a file(specify file of choice, in this case the file is test.txt )
 ```
 python Uploading/seed.py
 ```
