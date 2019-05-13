@@ -14,7 +14,7 @@ This involves adding .torrent files into a BitTorrent Client GUI!
 ## Set it up!
 
 ### For Uploading:
-P.S- No need to set up a Python virtual environment for "Uploading"
+P.S- No need to set up a Python virtual environment for "Uploading".
 
 -Python Libtorrent used here!
 ```
