@@ -13,7 +13,7 @@ This involves adding .torrent files into a BitTorrent Client GUI!
 
 ## Set it up!
 
-### * For Uploading:
+### For Uploading:
 P.S- No need to set up a Python virtual environment for "Uploading".
 
 -Python Libtorrent used here!
@@ -30,7 +30,7 @@ python Uploading/seed.py
 
 
 
-### * For Downloading:
+### For Downloading:
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
