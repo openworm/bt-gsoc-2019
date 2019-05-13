@@ -4,7 +4,7 @@ import libtorrent as lt
 
 #Create torrent
 fs = lt.file_storage()
-lt.add_files(fs, "./test.txt")
+lt.add_files(fs, input("\n File location"))
 t = lt.create_torrent(fs)
 trackerList = ['udp://tracker.coppersurfer.tk:6969',
            'udp://tracker.opentrackr.org:1337/announce',
