@@ -5,15 +5,15 @@ A Bit Torrent Client to create, seed and download from .torrent files!
 
 This will guide you through setting up this BT client, this repository is split into 2 parts:
 
-#### Uploading:
+### Uploading:
 This involves creating .torrents from files/folders and seeding them to peers.
 
-#### Downloading:
+### Downloading:
 This involves adding .torrent files into a BitTorrent Client GUI!
 
 ## Set it up!
 
-#### For Uploading:
+### For Uploading:
 P.S- No need to set up a Python virtual environment for "Uploading"
 
 -Python Libtorrent used here!
