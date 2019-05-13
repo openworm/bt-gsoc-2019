@@ -5,10 +5,10 @@ A Bit Torrent Client to create, seed and download from .torrent files!
 
 This will guide you through setting up this BT client, this repository is split into 2 parts:
 
-####1) Uploading:
+#### 1) Uploading:
 This involves creating .torrents from files/folders and seeding them to peers.
 
-####2) Downloading:
+#### 2) Downloading:
 This involves adding .torrent files into a BitTorrent Client GUI!
 
 ## Set it up!
