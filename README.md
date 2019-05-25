@@ -22,7 +22,7 @@ sudo apt install python-libtorrent
 ```
 -To create a .torrent file and start seeding of desired contents( specify file of choice, in this case the file is "./test.txt" as shown in image below).
 ```
-python3 Uploading/seed.py
+python2 Uploading/seed.py
 ```
 -Upon starting the seeding process a .torrent( mytorrent.torrent ) is created. Let the seeding process run indefinitely( Will specify duration on further testing!)
 
