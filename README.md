@@ -38,7 +38,8 @@ P.S- Install into Python Virtual Evironment.
 pip3 install -r requirements.txt 
 
 ```
-```
+
+
 Then run the BitTorrent Client GUI! (shown in image below).
 
 ```
