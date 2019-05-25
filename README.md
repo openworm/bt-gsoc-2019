@@ -16,6 +16,7 @@ This involves adding .torrent files into a BitTorrent Client GUI!
 ### For Uploading:
 
 -python libtorrent used here
+[python-libtorrent requires python2 and has package manager(apt) support for only Debian.]
 ```
 sudo apt install python-libtorrent
 ```
