@@ -38,11 +38,6 @@ P.S- Install into Python Virtual Evironment.
 pip3 install -r requirements.txt 
 
 ```
-Also PyQt,
-
-```
-pip3 install pyqt5
-
 ```
 Then run the BitTorrent Client GUI! (shown in image below).
 
