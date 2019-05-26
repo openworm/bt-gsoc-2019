@@ -29,6 +29,9 @@ python2 Uploading/seed.py
 
 ![](images/seeding.png)
 
+OR a directory as:
+
+![](images/or_downloading.png)
 
 
 ### For Downloading:
