@@ -31,7 +31,7 @@ python2 Uploading/seed.py
 
 OR a directory as:
 
-![](images/or_downloading.png)
+![](images/or_directory.png)
 
 
 ### For Downloading:
