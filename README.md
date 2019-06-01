@@ -28,7 +28,6 @@ sudo apt install python-libtorrent
 python2 Uploading/seed_final.py
 ```
 ( Specify the file/folder withing the Uploading directory as shown here & then let it seed indefinitely. A .torrent file will be created within the Uploading Directory)  
-[Further work on posting to Google Drive] )
 
 ![](images/seeding.png)
 
@@ -39,12 +38,29 @@ python2 Uploading/seed_final.py
 pip3 install -r requirements.txt 
 
 ```
+- Start the BitTorrent Download daemon:
 
 ```
-python3 Downloading/bit-torrent/torrent_gui.py 
+python3 Downloading/torrent_cli.py start &
 ```
-The process of running the GUI is shown here.
+
+- Add the .torrent file and the directory to download contents into:
+
+```
+python3 Downloading/torrent_cli.py add '.torrent file' -d 'Download directory'
+```
+- To watch the download progress use: (ctrl + c to exit view):
+```
+watch python3 torrent_cli.py status
+```
+
 ![](images/downloading.png)
+
+- After waiting for 100% download completion, check for data integrity:
+```
+python2 integrity.py 'path of .torrent file' 'Path of downloaded contents'
+```
+(Data integrity check shown below!)
 
 ![](images/done.png)
 ### Finally good to go!
