@@ -44,8 +44,9 @@ pip3 install -r requirements.txt
 python3 Downloading/bit-torrent/torrent_gui.py 
 ```
 The process of running the GUI is shown here.
-![](images/download.png)
+![](images/downloading.png)
 
+![](images/done.png)
 ### Finally good to go!
 Shown below is an image of the process of seeding contents, creating their .torrent file and adding this .torrent file into the BitTorrent GUI based client for downloading from peers.
 ![](images/download.png)
