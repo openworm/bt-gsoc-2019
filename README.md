@@ -17,7 +17,7 @@ This involves selecting .torrent files, downloading the contents from peers into
 
 ### For Uploading:
 
--python libtorrent used here.
+- python libtorrent used here.
 
 [python-libtorrent requires python2 and has package manager support for only Debian.]
 ```
@@ -27,24 +27,14 @@ sudo apt install python-libtorrent
 ```
 python2 Uploading/seed_final.py
 ```
-( Specify the file/folder withing the Uploading directory as shown here & then let it seed indefinitely )
+( Specify the file/folder withing the Uploading directory as shown here & then let it seed indefinitely. A .torrent file will be created within the Uploading Directory)  
+[Further work on posting to Google Drive] )
 
 ![](images/seeding.png)
-
--Upon starting the seeding process a .torrent( mytorrent.torrent ) is created. Let the seeding process run indefinitely( Will specify duration on further testing!)
-
-![](images/seeding.png)
-
-OR a directory as:
-
-![](images/or_directory.png)
 
 
 ### For Downloading:
-P.S- Install into Python Virtual Evironment.
-
-
--Install modules within requirements.txt
+- Install modules within requirements.txt
 ```
 pip3 install -r requirements.txt 
 
