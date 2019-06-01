@@ -1,15 +1,17 @@
 # GSoC 19 POW BitTorrent Client (1):
-A Bit Torrent Client to create, seed and download from .torrent files!
+
+A BitTorrent Client to create, seed and download from .torrent files. Coupled with Data Integrity and Authenticity checks!
 
 ## Getting Started
 
-This will guide you through setting up this BT client, this repository is split into 2 parts:
+This will guide you through setting up this BitTorrent client, this repository is split into 2 parts:
 
 #### 1) Uploading:
-This involves creating .torrents from files/folders and seeding them to peers.
+This involves generating the Message Digest for Data integrity, creating .torrents and seeding the contents to other BitTorrent peers.
 
 #### 2) Downloading:
-This involves adding .torrent files into a BitTorrent Client GUI!
+This involves selecting .torrent files, downloading the contents from peers into local machine and running Data Integrity checks.  
+
 
 ## Set it up!
 
@@ -17,14 +19,18 @@ This involves adding .torrent files into a BitTorrent Client GUI!
 
 -python libtorrent used here.
 
-[python-libtorrent requires python2 and has package manager(apt) support for only Debian.]
+[python-libtorrent requires python2 and has package manager support for only Debian.]
 ```
 sudo apt install python-libtorrent
 ```
--To create a .torrent file and start seeding of desired contents( specify file of choice, in this case the file is "./test.txt" as shown in image below).
+- To create the Message Digest of the contents, create a .torrent file of those contents and then start seeding them.
 ```
-python2 Uploading/seed.py
+python2 Uploading/seed_final.py
 ```
+( Specify the file/folder withing the Uploading directory as shown here & then let it seed indefinitely )
+
+![](images/seeding.png)
+
 -Upon starting the seeding process a .torrent( mytorrent.torrent ) is created. Let the seeding process run indefinitely( Will specify duration on further testing!)
 
 ![](images/seeding.png)
