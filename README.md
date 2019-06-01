@@ -63,9 +63,6 @@ python2 integrity.py 'path of .torrent file' 'Path of downloaded contents'
 (Data integrity check shown below!)
 
 ![](images/done.png)
-### Finally good to go!
-Shown below is an image of the process of seeding contents, creating their .torrent file and adding this .torrent file into the BitTorrent GUI based client for downloading from peers.
-![](images/download.png)
 
 
 
