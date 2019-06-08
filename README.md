@@ -44,7 +44,7 @@ pip3 install -r requirements.txt
 python3 Downloading/torrent_cli.py start &
 ```
 
-- Add the .torrent file and the directory to download contents into:
+- Add the torrent file and the directory to download contents into:
 
 ```
 python3 Downloading/torrent_cli.py add '.torrent file' -d 'Download directory'
