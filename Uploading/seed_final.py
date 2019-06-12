@@ -95,7 +95,7 @@ def create_torrent(message_digest):
 
 if __name__ == "__main__":
   path = None
-  path = input("Enter File/Folder path:")
+  path = input("Enter File/Folder Name within current Directory (~/Uploading):")
   ch   = os.path.isdir(path)
   message_digest = None
   if ch == 1:
