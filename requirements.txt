@@ -7,3 +7,5 @@ multidict==3.3.2
 sip==4.19.5
 yarl==0.14.2
 pyqt5
+google-api-python-client
+google-auth-oauthlib
